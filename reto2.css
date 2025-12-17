@@ -4,7 +4,7 @@ body {
   color: #333;
   margin: 0;
   padding: 0;
-  background-image: url(/imagen_de_fondo.jpg);
+  background-image: url(imagen_de_fondo.jpg);
 }
 
 header {
@@ -58,7 +58,7 @@ h3 {
 }
 
 #banner {
-  background-image: url(/banner.jpeg);
+  background-image: url(banner.jpeg);
   background-size: cover;
   background-position: center;
   height: 350px;
@@ -138,3 +138,4 @@ tr:nth-child(even) {
 footer {
   text-align: center;
 }
+
