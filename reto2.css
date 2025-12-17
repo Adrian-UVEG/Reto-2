@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-image: url(/imagen_de_fondo.jpg);
+}
+
+header {
+  margin: 0;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #4000ff;
+  position: sticky;
+}
+
+#contenedor-principal {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  color: #fff;
+  padding-top: 0.3em;
+}
+
+h2 {
+    color: #007bff;
+    text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: #ddd;
+}
+
+.seccion {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #e9f7ff;
+}
+
+.seccion p {
+  line-height: 1.6;
+  padding: 10px;
+  border-left: 5px solid #007bff;
+  background-color: #ffffff;
+}
+
+#banner {
+  background-image: url(/banner.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+#banner p {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 1.5em;
+}
+
+#titulo-banner {
+  color:#ffc107;
+  font-size: 2.5em;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 40%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.resaltado {
+  color: #004085;
+  font-weight: bold;
+  background-color: #ffeb3b;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.imagen-1 {
+  width: 600px;
+  height: 397px;
+  display: block;
+  margin: auto;
+}
+
+.imagen-2 {
+  display: block;
+  margin: 10px auto;
+}
+
+#imagen-trabajo {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 20px auto;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    height: 40px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+footer {
+  text-align: center;
+}
